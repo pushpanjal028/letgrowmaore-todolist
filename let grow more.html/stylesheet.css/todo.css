@@ -1,0 +1,58 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(201, 247, 249);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 1);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+}
+
+button {
+    margin-top: 23px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(44, 220, 233);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(196, 159, 231);
+}
+
+ul{
+    list-style: none;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0f0d0d;
+    padding: 10px 0;
+
+}
+
+li .delete{
+    cursor: pointer;
+    color: rgb(4, 4, 4);
+    font-size: 20px;
+}
